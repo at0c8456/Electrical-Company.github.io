@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .button {
+        display: inline-block;
+      }
+      .button:active {
+        background-color: rgb(240, 254, 19);
+      }
+      button {
+        color: black;
+        font-size: 20px;
+        border-radius: 45px;
+      }
+
+      button:hover {
+        text-shadow: 2px 2px 5px black;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      body {
+        background-color: rgb(120, 70, 6);
+      }
+      /*styling the form*/
+      .header {
+          background-color: black;
+          display: flex;
+          align-items: center;
+          padding: 10px;
+        }
+
+        .logo {
+          width: 100px;
+          height: 100px;
+        }
+
+        .search-bar {
+          flex: 1;
+          margin-left: 20px;
+        }
+
+        .search-bar input {
+          width: 80%;
+          padding: 10px;
+          border: none;
+        }
+
+        .search-bar button {
+          width: 15%;
+          padding: 10px;
+          border: none;
+          background-color: green;
+          color: white;
+        }
+
+        .form-container {
+          background-color: rgb(120, 70, 6);
+          position: relative;
+          height: 600px;
+          margin-top: 10%;
+          width: 50%;
+        }
+
+        .form-container::before {
+          content: "";
+          position: absolute;
+          top: -50px;
+          left: -50px;
+          width: calc(100% + 100px);
+          height: calc(100% + 100px);
+          background-image: url("palm-leaves.png");
+        }
+
+        .form {
+          position: relative;
+          z-index: 1;
+          max-width: 600px;
+          margin: auto;
+        }
+
+        .form h1 {
+          text-align: center;
+        }
+
+        .form input,
+        .form textarea {
+          display: block;
+          width: 80%;
+          margin: auto;
+          padding: 10px;
+        }
+
+        .form button {
+          display: block;
+          width: 40%;
+          margin: auto;
+          padding: 10px;
+          border: none;
+          background-color: black;
+          color: rgb(120, 70, 6);
+        }
+
+        .designer-section {
+          text-align: center;
+          
+        }
+
+        .designer-section span {
+          font-weight: bold;
+          color: black;
+        }
+
+        .designer-section button {
+          display: inline-block;
+          padding: 5px;
+          border: none;
+          background-color: pink;
+          color: green;
+        }
+
+        #photo {
+          display: inline-flex;
+        }
+        .div2 {
+          background-color: black;
+          float: right;
+          width: 50%;
+          height: 600px;
+          position: relative;
+          margin-top: 4%;
+        }
+
+        /* The animation code */
+        @keyframes rectangle {
+          0% {
+            transform: translate(0, 0);
+          }
+          25% {
+            transform: translate(200px, 0);
+          }
+          37% {
+            transform: translateY(400px, 0);
+          }
+          50% {
+            transform: translate(200px, 100px);
+          }
+          65% {
+            transform: translateX(500%, 0);
+          }
+          75% {
+            transform: translate(0, 100px);
+          }
+          85% {
+            transform: translateZ(400px, o);
+          }
+          100% {
+            transform: translate(0, 0);
+          }
+        }
+
+        #img {
+          width: 100%;
+          height: 600px;
+        }
+        #img2 {
+          height: 200px;
+          width: 450px;
+          
+        }
+        .icon {
+          width: 50px;
+          height: 50px;
+          margin-right: 4%;
+          margin-top: 8%;
+        }
+        p{color:rgb(120, 70, 6);
+        font-size: 30px;
+      text-align: center;
+    text-transform:none;
+    
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  .logos{width:60px ;
+        height:60px ;
+        margin-right: 40px;
+        margin-top: 20%;}
+span{text-shadow: -5px -3px 20px rgb(120, 70, 6) ;
+color: black;
+text-decoration: underline;}
+#span2{text-shadow: 1px 1px 15px gold;
+text-decoration: none; }
+
+.footer {
+        background-color: black;
+        padding-bottom: 0.5%;
+        width: 200%;
+      }
+      #footer {
+        margin-top: 1%;
+        width: 200px;
+        height: 80px;
+        float: left;
+      }
+
+      #icon {
+        width: 30px;
+        height: 30px;
+        margin-top: 0.5%;
+        margin-right: 2%;
+      }
+      #icon:hover {
+        transform: scale(2);
+      }
+      .copy {
+        color: white;
+        margin-top: 1%;
+        font-size: 20px;
+      }
+      h3{font-size: 20px;}
+      h4{font-size: 25px;}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <a href="index.html">
+        <img
+          style="width: 200px; height: 150px"
+          src="images/hughes empire.jpg.jpg"
+      /></a>
+      <center><h1 style="font-size: 70px">HUGHES ELECTRICAL</h1></center>
+      <a href="index.html">
+        <img
+          style="width: 200px; height: 150px"
+          src="images/hughes empire.jpg.jpg"
+      /></a>
+    </div>
+    <center>
+      <a href="index.html"> <button class="button">HOME</button></a>
+      <a href="services.html"> <button class="button">SERVICES</button></a>
+      <a href="gallery.html"> <button class="button">GALLERY</button></a>
+
+      
+      <a href="About.html"><button class="button">ABOUT</button></a>
+    </center>
+
+    <div class="div2">
+      <p><span>Hughes Electrical</span> is inspired through creativity and benovelence,
+         To ensure satisfied customer. With our focus on bridging the gap between
+          customer satisfaction
+         and procurement. We always keep updated with technology.
+        The model that we have, incoporates business and training. Through 
+        skills development we develop sustainability by empowering locals in the 
+        communities. We are <span>100% black owned</span> and is directed by both husband and wife.
+        Our goals include renewable energy development and installation.
+        <span>Hughes Electric</span> has been operating since <span>2015</span> and is a family owened business.
+         We pride ourselfs with our work and creativity, with zero combacks from customers.
+          We compete against the best South Africa has to offer.</p>
+    </div>
+    <div class="form-container">
+      
+       <center><h1>Contact Us</h1>
+       
+
+      
+        <img id="img2" src="images/hughes empire.jpg.jpg" /><br></center> 
+       <center>
+        <h4><span id="span2">EMAIL </span>  : courtneyhughes0001@gmail.com</h4>
+       <h4><span id="span2">PHONE </span>: 084 963 9829</h4>
+       <h4><span id="span2">WHATSAPP</span> : 064 308 8711 </h4></center>
+      <center> <h3>We are the spark that lights up your world.<br>
+        We are not just electricians, we are visionaries.<br>
+        We are driven by passion, powered by excellence.<br>
+        We are the current that flows through your dreams.<br>
+        We are the force that connects you to the future.
+       </h3></center>
+<br><br>
+        <div class="footer">
+          <img
+            style="float: left"
+            id="footer"
+            src="images/hughes empire.jpg.jpg"
+          />
+          <img
+            id="footer"
+            style="float: right"
+            src="images/hughes empire.jpg.jpg"
+          />
+          <center>
+            <a href="https://gmail.google.com"> <img id="icon" src="images/gmail_new_logo_icon_159149.ico" /></a>
+           
+            <img id="icon" src="images/ic_call_128_28145.ico" />
+            
+            <a href="https://wa.me/number>">
+              <img id="icon" src="images/Whatsapp_37229.ico" /></a>
+            <p class="copy">&copy; HUGHES ELECTRICAL SINCE 2015</p>
+          </center>
+        </div>
+  </body>
+</html>

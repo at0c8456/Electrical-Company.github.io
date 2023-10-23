@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: rgb(120, 70, 6);
+      }
+      .images {
+        width: 100px;
+        height: 100px;
+        margin-top: 3%;
+      }
+      .images:hover{
+      border: 2px solid white ;
+     transform: scale(2);}
+      h1 {
+        color: black;
+        font-weight: bolder;
+        text-shadow: 2px 2px 5px rgb(240, 254, 19);
+
+        font-family: "Times New Roman", Times, serif;
+        font-size: 80px;
+        margin-top: 1%;
+      }
+      .logo2 {
+        
+        text-shadow: 2px 2px 5px rgb(240, 254, 19);
+        width: 220px;
+        height: 220px;
+        animation: pulse 2s infinite;
+        margin-top: 1%;
+        margin-left: 5%;
+        
+        
+        
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1); /* start with the original size */
+        }
+        50% {
+          transform: scale(1.2); /* scale up by 20% */
+        }
+        100% {
+          transform: scale(1); /* return to the original size */
+        }
+      }
+      .firsth2 {
+       
+        text-shadow: 2px 2px 5px rgb(240, 254, 19);
+        
+        font-size: 2em;
+      }
+      .secondh2 {
+        
+        text-shadow: 2px 2px 5px rgb(240, 254, 19);
+       
+        font-size: 2em;
+      }
+      #firsth2 {
+        margin-top: 10%;
+        font-size: 2em;
+        
+        
+      }
+      
+      #thirdh2 {
+        margin-top: 10%;
+        font-size: 2em;
+        text-shadow: 2px 2px 5px rgb(240, 254, 19);
+       margin-left: 6%;
+
+       
+       
+        
+      }
+      a{color: black;
+      text-decoration: none;}
+      h2:hover{text-shadow: none;
+        text-decoration: underline;
+        }
+        .button{
+          display:inline-block;}
+          .button:active{
+          background-color: rgb(240, 254, 19);}
+          button{color: black;
+          font-size: 20px;
+        border-radius: 45px;
+      }
+     
+      button:hover{text-shadow: 2px 2px 5px black;}
+      .container{display: flex;
+  align-items: center;
+  justify-content: space-between;}
+  .container2{display: flex;
+  align-items: center;
+  justify-content: space-between;}
+  #mainh2{margin-bottom: 10%;
+  margin-left: 5%;}
+  #secondh2{margin-bottom: 14%;
+    text-shadow: 2px 2px 5px rgb(240, 254, 19);
+       margin-left: 12%;
+       font-size: 2em;
+       text-align: justify;
+ }
+
+ .footer {
+        background-color: black;
+        padding-bottom: 0.5%;
+      }
+      #footer {
+        margin-top: 1%;
+        width: 200px;
+        height: 80px;
+        float: left;
+      }
+
+      #icon {
+        width: 30px;
+        height: 30px;
+        margin-top: 0.5%;
+        margin-right: 2%;
+      }
+      #icon:hover {
+        transform: scale(2);
+      }
+      p {
+        color: white;
+        margin-top: 1%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+     <a href="index.html"> <img style="width: 200px; ;height: 150px; " src="images/hughes empire.jpg.jpg"></a>
+        <center><h1 style="font-size: 70px;  ">HUGHES ELECTRICAL</h1></center>
+        <a href="index.html"> 
+          <img style="width: 200px; ;height: 150px; "
+        src="images/hughes empire.jpg.jpg"></a>
+      
+      
+      
+    </div>
+    <center><a href="index.html"> <button class="button">HOME</button></a>
+      <a href="services.html"> <button class="button">SERVICES</button></a>
+      <a href="gallery.html"> <button class="button" >GALLERY</button></a>
+      
+      
+      <a href="About.html"><button class="button">ABOUT</button></a> 
+    </center>
+    
+    <center>
+      <img class="images" src="images/IMG-20231012-WA0015.jpg" />
+      <img class="images"  src="images/IMG-20231012-WA0024.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0032.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0043.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0063.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0065.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0066.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0079.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0082.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0101.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0103.jpg" />
+      <img class="images" src="images/IMG-20231012-WA0052.jpg" />
+    </center>
+
+    <center><h1>SERVICES</h1></center>
+    <div class="container2">
+      <h2 id="mainh2" class="firsth2"><a href="one.html">Elecrtrical Installations<br />
+        Fault Finding<br />
+        And Repairs</a>
+        
+      </h2></a>
+
+      <h2 id="firsth2" class="firsth2"><a href="two.html">Line Diagram</a> </h2>
+      <img class="logo2" src="images/brown bg2.png" />
+
+      
+      <h2 id="thirdh2" ><a href="four.html">C.O.C`s</a> </h2>
+      <h2 id="secondh2" ><a href="five.html"> Layout Drawings</a></h2>
+    </div>
+    <center><h2 class="secondh2"><a href="three.html">Alternate supply Installations</a> </h2></center>
+    <div class="footer">
+      <img
+        style="float: left"
+        id="footer"
+        src="images/hughes empire.jpg.jpg"
+      />
+      <img
+        id="footer"
+        style="float: right"
+        src="images/hughes empire.jpg.jpg"
+      />
+      <center>
+        <img id="icon" src="images/gmail_new_logo_icon_159149.ico" />
+        <img id="icon" src="images/ic_call_128_28145.ico" />
+        <img id="icon" src="images/Whatsapp_37229.ico" />
+
+        <p>&copy; HUGHES ELECTRICAL SINCE 2015</p>
+      </center>
+    </div>
+  </body>
+</html>
